@@ -1,0 +1,32 @@
+[
+    {
+        "brand": "Ford",
+        "model":"F150",
+        "year": 2022,
+        "pacakge": "Off Road"
+    },
+    {
+        "brand": "Lamborghini",
+        "model":"Spyder",
+        "year": 2021,
+        "pacakge": "Performance"
+    },
+    {
+        "brand": "Honda",
+        "model":"Accord",
+        "year": 2017,
+        "pacakge": "Performance"
+    },
+    {
+        "brand": "Jeep",
+        "model":"Wrangler",
+        "year": 2020,
+        "pacakge": "Off Road"
+    },
+    {
+        "brand": "Nissan",
+        "model":"Altima",
+        "year": 2013,
+        "pacakge": "Performance"
+    }
+]
