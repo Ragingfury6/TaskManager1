@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/98a50fb53a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Tasks</title>
+  </head>
+  <body onload="loadInitialData()">
+    <dialog class="dialog">
+      <div class="card__banner p-4">Enter Task Information</div>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" maxlength="25" />
+        <label for="description">Description</label>
+        <textarea
+          type="text"
+          id="description"
+          rows="3"
+          cols="8"
+          name="description"
+          maxlength="100"
+          style="resize: none"
+        ></textarea>
+        <button type="submit" id="formSubmit" data-type="POST">Submit</button>
+        <button type="submit" hidden id="formSubmit" data-type="PUT">
+          Submit
+        </button>
+      </form>
+    </dialog>
+    <header>
+      <h1 class="text-center" data-micromodal-trigger="modal-1">
+        Task Manager
+      </h1>
+      <button class="add-task" id="taskBtn">Add Task</button>
+    </header>
+    <section class="container flex flex-wrap justify-center"></section>
+    <script src="script.js"></script>
+  </body>
+</html>
